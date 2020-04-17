@@ -20,6 +20,6 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "express-session": "^1.17.0"
+    "express-session": "^1.17.1"
   }
 }
