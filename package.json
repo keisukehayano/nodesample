@@ -1,0 +1,25 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keisukehayano",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "date-utils": "^1.2.21",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "express-session": "^1.17.0"
+  }
+}
