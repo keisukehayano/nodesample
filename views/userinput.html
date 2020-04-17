@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>userInfomationInput</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/userinput.css">
+</head>
+<body>
+
+  <div class="toaster"></div>
+
+  <main class="wrapper">
+    <section class="section-form">
+      <h1>MasaruAccount</h1>
+      <p>
+        Tell us your information<br>
+      </p>
+
+      <form name="signup" class="form" novalidate>
+        <div class="form-group">
+          <label for="name" class="form-label form-label--required">
+            Name:
+          </label>
+
+          <div class="form-addon" data-states-for="name">
+            <div class="form-addon__addon">
+              <span class="icon-name"></span>
+            </div>
+
+            <input type="text"
+                   id="name"
+                   name="name"
+                   class="form-input"
+                   placeholder="John Doe"
+                   required>
+
+            <span class="form-addon__icon icon-valid"></span>
+            <span class="form-addon__icon icon-invalid"></span>
+          </div>
+
+
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="form-label form-label--required">
+            Email:
+          </label>
+
+          <div class="form-addon" data-states-for="email">
+            <div class="form-addon__addon">
+              <span class="icon-email"></span>
+            </div>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   class="form-input"
+                   placeholder="andrew@email.com"
+                   required>
+
+            <span class="form-addon__icon icon-valid"></span>
+            <span class="form-addon__icon icon-invalid"></span>
+          </div>
+
+
+        </div>
+
+        <div class="form-group">
+          <label for="phone" class="form-label form-label--required">
+            Phone number:
+          </label>
+
+          <div class="form-addon" data-states-for="phone">
+            <div class="form-addon__addon">
+              <span class="icon-phone"></span>
+            </div>
+
+            <input type="text"
+                   id="phone"
+                   name="phone"
+                   class="form-input"
+                   placeholder="123 456 789"
+                   pattern="[0-9]{3} [0-9]{3} [0-9]{3}">
+
+            <span class="form-addon__icon icon-valid"></span>
+            <span class="form-addon__icon icon-invalid"></span>
+          </div>
+
+
+        </div>
+
+
+        <div class="form-group">
+          <label for="city" class="form-label form-label--required">
+            City:
+          </label>
+
+          <div class="form-addon" data-states-for="name">
+            <div class="form-addon__addon">
+              <span class="icon-name"></span>
+            </div>
+
+            <input type="text"
+                   id="city"
+                   name="city"
+                   class="form-input"
+                   placeholder="city"
+                   required>
+
+            <span class="form-addon__icon icon-valid"></span>
+            <span class="form-addon__icon icon-invalid"></span>
+          </div>
+
+
+        </div>
+
+
+        <div class="form-group">
+          <label for="city" class="form-label form-label--required">
+            Address:
+          </label>
+
+          <div class="form-addon" data-states-for="name">
+            <div class="form-addon__addon">
+              <span class="icon-name"></span>
+            </div>
+
+            <input type="text"
+                   id="address"
+                   name="address"
+                   class="form-input"
+                   placeholder="address"
+                   required>
+
+            <span class="form-addon__icon icon-valid"></span>
+            <span class="form-addon__icon icon-invalid"></span>
+          </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="form-group">
+          <label for="password" class="form-label form-label--required">
+            Password <span class="text-muted">(minimum 8 characters)</span>:
+          </label>
+
+          <div class="form-addon" data-states-for="password">
+            <div class="form-addon__addon">
+              <span class="icon-password"></span>
+            </div>
+
+            <input type="password"
+                   id="password1"
+                   name="password"
+                   class="form-input"
+                   placeholder="********"
+                   minlength="8"
+                   required>
+
+            <span class="form-addon__icon icon-valid"></span>
+            <span class="form-addon__icon icon-invalid"></span>
+          </div>
+
+
+        </div>
+
+
+
+
+        <div class="form-group">
+          <label for="password" class="form-label form-label--required">
+            Password <span class="text-muted">(minimum 6 characters)</span>:
+          </label>
+
+          <div class="form-addon" data-states-for="password">
+            <div class="form-addon__addon">
+              <span class="icon-password"></span>
+            </div>
+
+            <input type="password"
+                   id="password2"
+                   name="password"
+                   class="form-input"
+                   placeholder="********"
+                   minlength="8"
+                   required>
+
+            <span class="form-addon__icon icon-valid"></span>
+            <span class="form-addon__icon icon-invalid"></span>
+          </div>
+
+
+        </div>
+
+
+        <div class="form-footer">
+          <button id="submit" type="button" class="button">Sign up</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/userinfo.js" ></script>
+
+
+</body>
+</html>
